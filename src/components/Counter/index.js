@@ -1,7 +1,7 @@
 import { Component } from "react";  
 import './index.css'
 
- class Welcome extends Component{
+ class Counter extends Component{
     state = {count:0}
     onIncrement = () =>{
         this.setState((prevState) => (
@@ -31,4 +31,4 @@ import './index.css'
     }
  }
 
- export default Welcome
+ export default Counter
